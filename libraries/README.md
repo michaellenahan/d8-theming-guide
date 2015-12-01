@@ -1,20 +1,20 @@
 # Libraries
 
-Libraries are the most imported part for Drupal 8 themes. They are used to add any kind of assets (css or javascript) to the page.
+Libraries are the most important part of Drupal 8 themes. They are used to add any kind of asset (css or javascript) to the page.
 
 ## Global styling
 
-Stylesheets that should be included on all pages are called globing styling. It's considered a good practice to use `{theme}/globing-styling` as a key for this sort of stylesheets.
+Stylesheets that should be included on all pages are called global styling. It's considered a good practice to use `{theme}/global-styling` as a key for this sort of stylesheet.
 
 ## Global scripts
 
-Scripts that should be included on all pages are called globing scripts. It's considered a good practice to use `{theme}/globing-scrips` as a key for this sort of javascript.
+Scripts that should be included on all pages are called global scripts. It's considered a good practice to use `{theme}/global-scripts` as a key for this sort of javascript.
 
 > **NOTE:** Don't just include all your css or javascript files on every page!
 
 ## Adding a javascript library
 
-Here is an example of how to add a custom javascript file to theme.
+Here is an example of how to add a custom javascript file to a theme.
 
 Start by creating a `*.libraries.yml` file, e.g. `awesome.libraries.yml` (`{theme-or-module-name}`.libraries.yml) and save it into the root of the theme.
 
