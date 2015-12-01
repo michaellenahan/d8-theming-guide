@@ -13,7 +13,7 @@ During the early development of Drupal 8, assets such as javascript and styleshe
 
     ...
 
-An alternative path was chosen. Javascript maintainer **_nod** created an issue on [using AMD for JS architecture](https://www.drupal.org/node/1542344). The patch for the issue became so big that a separate issue was created. This issue handled the splitting up of the dependencies. This patch, [Explicitly declare all JS dependencies, don't use drupal_add_js](https://www.drupal.org/node/1737148), where all javascript files are declared as libraries and added the relevant dependencies to the scripts, got committed about two weeks after the creation. The original issue [**AMD architecture**] however was posponed to a later Drupal release (Drupal 9.x).
+Later in Drupal 8, an alternative path was chosen. Javascript maintainer **_nod** created an issue on [using AMD for JS architecture](https://www.drupal.org/node/1542344). The patch for the issue became so big that a separate issue was created. This issue handled the splitting up of the dependencies. This patch, [Explicitly declare all JS dependencies, don't use drupal_add_js](https://www.drupal.org/node/1737148), where all javascript files are declared as libraries and added the relevant dependencies to the scripts, got committed about two weeks after the creation. The original issue [**AMD architecture**] however was posponed to a later Drupal release (Drupal 9.x).
 
 ## {}.libraries.yml
 
